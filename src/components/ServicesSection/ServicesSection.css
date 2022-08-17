@@ -1,0 +1,21 @@
+.services__card__container {
+    margin-top: 40px;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+
+
+.break {
+    flex-basis: 100%;
+}
+
+
+@media screen and (max-width:800px) {
+    .services__card__container {
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,28 @@
+.section__title {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section__title::after {
+    content:" ";
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 25px;
+    width:50px;
+    height:3px;
+    color:#fb3e3e;
+    background-color: #fb3e3e;
+}
+.section__subtitle {
+    color:#95a0ab;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 24px;
+    padding:30px 0;
+    max-width: 600px;
+    margin: 0 auto;
+}

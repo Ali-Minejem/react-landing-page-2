@@ -1,0 +1,36 @@
+.pricing__card__container{
+    padding:40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    flex-basis: 30%;
+    text-align: center;
+    transition: 0.3s;
+}
+.pricing__card__container:hover{
+margin-top: -20px;
+transition: 0.3s;
+}
+.pricing__card__container div {
+    margin-bottom: 30px;
+}
+
+.pricing__card__container span {
+    color:#fb3e3e;
+    font-weight:600
+}
+.pricing__card__header__title {
+font-size: 18px;
+margin-bottom: 8px;
+font-weight: 500;
+line-height: 18px;
+}
+
+.pricing__card__header__pricing {
+    font-size: 36px;
+    font-weight: 500;
+}
+.pricing__card__header__billing {
+    font-size: 12px;
+    margin-top: -15px;
+    color:#95a0ab;
+
+}

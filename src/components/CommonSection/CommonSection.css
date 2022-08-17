@@ -1,0 +1,43 @@
+.dream__parent {
+    margin-top: -40px;
+    position: relative;
+    height:400px
+}
+.dream__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+.dream__container p, .dream__container h2, .dream__container button {
+    z-index: 2;
+}
+
+.dream__container h2 {
+color:#fff;
+font-size: 36px;
+margin-bottom: 15px;
+font-weight: 500;
+line-height: 36px;
+z-index: 2;
+}
+
+.dream__container p {
+color:rgba(255, 255, 255, 0.7);;
+font-size: 15px;
+margin-bottom: 15px;
+font-weight: 400;
+line-height: 24px;
+z-index: 2;
+}
+
+
+@media screen and (max-width:800px) {
+    .dream__container {
+        background-size: cover;    
+}
+}

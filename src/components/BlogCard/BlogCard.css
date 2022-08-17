@@ -1,0 +1,20 @@
+.blog__card__categorie {
+margin: 15px 0;
+color:#95a0ab;
+font-size: 15px;
+font-weight: 500;
+text-transform: uppercase;
+
+}
+
+.blog__card__title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog__card__body {
+    margin: 15px 0;
+    color:#95a0ab;
+    font-size: 15px;
+    font-weight: 400;
+}

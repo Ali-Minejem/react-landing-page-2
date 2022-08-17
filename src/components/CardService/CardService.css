@@ -1,0 +1,41 @@
+.card__service {
+    max-width: 30%;
+    text-align: center;
+    padding:15px 5px;
+    transition: 0.3s;
+}
+.card__service:hover{
+margin-top: -20px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.card__icon {
+margin-bottom: 30px;
+}
+
+.card__title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color:#212529;
+    font-weight: 500;
+
+}
+
+.card__body {
+margin-bottom: 20px;
+font-size: 14.5px;
+color:#95a0ab;
+font-weight: normal;
+line-height: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .card__service {
+        max-width: 85%;
+    }
+    .card__service:hover {
+        margin-bottom: 20px;
+    }
+}

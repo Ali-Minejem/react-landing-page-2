@@ -1,0 +1,41 @@
+.get__in__touch__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.name__and__email__input__container {
+    display: flex;
+    gap:10px
+}
+
+.get__in__touch__container__col1 {
+flex-basis: 30%;
+}
+
+.get__in__touch__container__col2 {
+flex-basis: 70%;
+}
+
+.get__in__touch__col1__label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.get__in__touch__col1__values {
+    color: #95a0ab;
+    font-size: 14.4px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1000px) {
+    .get__in__touch__container {
+        flex-direction: column;
+        gap:20px
+    }
+    .name__and__email__input__container {
+    flex-direction: column;
+    }   
+
+}

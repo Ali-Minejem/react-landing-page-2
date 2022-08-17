@@ -1,0 +1,33 @@
+.people__section__parent {
+    display: flex;
+    gap:20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -40px;
+}
+
+.people__card__fullname {
+margin-top: 10px;
+font-size: 16px;
+font-weight: 500;
+}
+
+.people__card__role {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    color:#a8aeb4
+}
+.people__card__container {
+    transition: 0.3s;
+}
+.people__card__container:hover {
+    margin-top: -25px;
+    transition: 0.3s;
+}
+
+@media screen and (max-width:1000px) {
+    .people__section__parent {
+      flex-direction: column;
+    }
+}
