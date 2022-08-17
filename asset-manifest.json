@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ali-Minejem/react-landing-page-2.git/static/css/main.529617b9.css",
+    "main.js": "/Ali-Minejem/react-landing-page-2.git/static/js/main.85577703.js",
+    "static/js/787.04cdc376.chunk.js": "/Ali-Minejem/react-landing-page-2.git/static/js/787.04cdc376.chunk.js",
+    "index.html": "/Ali-Minejem/react-landing-page-2.git/index.html",
+    "main.529617b9.css.map": "/Ali-Minejem/react-landing-page-2.git/static/css/main.529617b9.css.map",
+    "main.85577703.js.map": "/Ali-Minejem/react-landing-page-2.git/static/js/main.85577703.js.map",
+    "787.04cdc376.chunk.js.map": "/Ali-Minejem/react-landing-page-2.git/static/js/787.04cdc376.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.529617b9.css",
+    "static/js/main.85577703.js"
+  ]
+}
