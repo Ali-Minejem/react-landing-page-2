@@ -34,7 +34,8 @@ function Navbar() {
   const handleNavBartoggling = () => {
     if (screenWidth <= WIDTH_BREAK_POINT) setToggleNavBar((prev) => !prev);
   };
-  const hideNavBar = () => {
+
+  function hideNavBar(){
     setToggleNavBar(false);
   };
 
