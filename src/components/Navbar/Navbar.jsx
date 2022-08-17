@@ -26,13 +26,16 @@ function Navbar() {
   const navLogoItemClasses = "Navbar__logo";
 
   const navLinkListContent = navLinks.map(({ label, href, className }) => (
-    <li key={uuidV4()} className={className}>
+    <li key={uuidV4()} className={className} onClick={hideNavBar}>
       <a href={href}>{label}</a>
     </li>
   ));
 
   const handleNavBartoggling = () => {
     if (screenWidth <= WIDTH_BREAK_POINT) setToggleNavBar((prev) => !prev);
+  };
+  const hideNavBar = () => {
+    setToggleNavBar(false);
   };
 
   const stickNavbar = () => {
