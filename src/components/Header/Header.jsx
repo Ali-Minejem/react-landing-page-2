@@ -45,7 +45,7 @@ function Header() {
   return (
     <header
       className="Header"
-      style={{ backgroundImage: "url('assets/header-img-gradient.png')" }}
+      style={{ background: "linear-gradient(to right, #512da8, #711e72)" }}
     >
       <Navbar />
       <ScrollAnimation
